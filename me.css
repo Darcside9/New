@@ -1,0 +1,245 @@
+/*Whole Page*/
+* {
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/*Html body or page*/
+body {
+    border: 0px;
+    margin: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3)50%, rgba(0, 0, 0, 0.3)50%), url(me.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*Home/Top Navigation Bar*/
+.navbar {
+    height: 100%;
+    width: 100%;
+    background: rgba(156, 19, 149, 0.452);
+    border: 4px solid rgba(190, 9, 9, 0.904);
+    border-radius: 10px;
+    border-style: groove;
+    text-align: center;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 10px;
+    border: 2px solid black;
+    background-color: maroon;
+    border-radius: 3px;
+}
+
+.navbar ul li i {
+    margin-top: 3px;
+    color: rgb(50, 50, 50);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-size: 27px;
+    padding: 14px 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: orange;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    transition: .4s ease;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    color: cyan;
+    transition: .4s ease;
+}
+
+.navbar input {
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.navbar input::placeholder {
+    color: rgb(141, 51, 9);
+    font-family: 'Chilanka';
+}
+
+.navbar input:hover {
+    border-radius: 5px;
+    background-color: rgb(214, 193, 193);
+}
+
+.navbar button {
+    height: 23px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.navbar button a {
+    font-family: 'Chilanka';
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button:hover {
+    color: white;
+    text-decoration: white;
+    background-color: blueviolet;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+
+
+/*Personal Details*/
+.per {
+    margin: 15px;
+    border: 4px solid grey;
+    border-style: ridge;
+    border-radius: 4px;
+    background-color: rgba(109, 108, 108, 0.486);
+}
+
+.per ul {
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+}
+
+.per ul li {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.per ul li h2 {
+    color: maroon;
+    margin-top: -15px;
+    margin-bottom: -7px;
+    margin-left: -5px;
+    font-family: 'C059';
+}
+
+.per span {
+    float: left;
+    position: absolute;
+    left: 220px;
+    color: rgb(231, 231, 231);
+}
+
+.per span input {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 20px;
+}
+
+.per span button {
+    font-size: small;
+    height: 22px;
+    border: 2px solid black;
+    font-family: 'Chilanka';
+    text-align: center;
+    border-radius: 3px;
+}
+
+.per span button p {
+    margin: 3px;
+    font-weight: bold;
+}
+
+
+
+/*Examination Details*/
+.ex {
+    margin: 15px;
+    border: 4px solid grey;
+    border-style: ridge;
+    border-radius: 4px;
+    background-color: rgba(109, 108, 108, 0.486);
+}
+
+.ex ul {
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+}
+
+.ex ul li {
+    font-size: 20px;
+    position: relative;
+}
+
+.ex ul li h2 {
+    color: maroon;
+    margin-top: -5px;
+    margin-bottom: 3px;
+    margin-left: -5px;
+    font-family: 'C059';
+
+}
+
+.ex ul li span {
+    color: rgb(241, 238, 238);
+    float: left;
+    position: absolute;
+    left: 230px;
+}
+
+p {
+    margin: 0;
+}
+
+.ex ul li span.slip {
+    float: right;
+    position: relative;
+    color: black;
+    left: 10px;
+}
+
+
+
+/*table*/
+.tab {
+    margin: 15px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: cyan;
+}
